@@ -104,6 +104,9 @@ h1,h2,h3,h4,h5,h6 {
 #breadcrumb {
     margin: 50px 0;
 }
+#breadcrumb p a {
+    color: var(--first-color);
+}
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #breadcrumb {
         margin: 30px 0;
@@ -340,7 +343,7 @@ nav .btn:hover {
         padding: 6px 15px;
     }
     #main_navbar .main_navbar_logo {
-        width: 160px;
+        width: 150px;
     }
     #top_nav #top_nav_social_icon {
         display: none;
@@ -369,6 +372,9 @@ nav .btn:hover {
     .navbar-nav  {
         padding-left: 15px !important;
     }
+    #navbar_right_btn .btn {
+        font-size: 16px;
+    }
 }
 @media only screen and (min-width: 501px) and (max-width: 800px) {
     #top_nav {
@@ -387,6 +393,73 @@ nav .btn:hover {
 
 /* Navbar */
 
+
+
+
+/* Contact Us */
+.contact_first{
+    padding: 50px 0;
+}
+.contact_first input{
+    margin-bottom: 10px;
+}
+.contact_first .btn {
+    margin-top: 20px;
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.contact_first .btn:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+.contact_first h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.contact_first h2 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.contact_first ul {
+    margin-top: 30px;
+}
+.contact_first ul li {
+    padding: 5px 0;
+    font-size: 18px;
+}
+.contact_first ul li i {
+    color: var(--second-color);
+}
+.contact_second {
+    background-color: var(--offwhite-color);
+}
+.contact_second h3 {
+    font-size: 40px;
+}
+.contact_second .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.contact_second .btn:hover {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .contact_first{
+        padding: 30px 0;
+    }
+    .contact_first h2 {
+        font-size: 35px;
+    }
+    .contact_second h3 {
+        font-size: 35px;
+    }
+}
+/* Contact Us */
 
 
 /* Footer */
