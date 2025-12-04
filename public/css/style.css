@@ -230,38 +230,7 @@ nav .btn:hover {
 .offcanvas-header img {
     width: 140px;
 }
-#search_option {
-    position: relative;
-}
-#search_option .btn {
-    background-color: var(--third-color);
-    color: var(--offwhite-color);
-    border: none;
-}
-.product_search_output {
-    background: var(--white-color);
-    padding: 15px 0;
-    position: absolute;
-    width: 100%;
-    z-index: 500;
-    border-radius: 10px;
-    display: none;
-}
-.product_search_output a {
-    color: var(--black-color);
-}
-.product_search_output img {
-    width: 50px;
-    border-radius: 10px;
-}
 
-#mobile_search_option {
-    display: none;
-}   
-.dropdown-menu.show .btn {
-    background-color: var(--first-color);
-    animation: animateBtn .5s alternate infinite;
-}
 @keyframes animateBtn {
     0% {
         transform: scale(1);
@@ -271,10 +240,6 @@ nav .btn:hover {
     }
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
-    .dropdown-menu {
-        left: 0%;
-        transform: translate(0%, 0px);
-    }
     .dropdown-menu.show {
         display: block;
     }
@@ -295,10 +260,6 @@ nav .btn:hover {
     }
 }
 @media only screen and (min-width: 501px) and (max-width: 800px) {
-    .dropdown-menu {
-        left: 0%;
-        transform: translate(0%, 0px);
-    }
     .dropdown-menu.show {
         display: block;
     }
@@ -319,20 +280,11 @@ nav .btn:hover {
     }
 }
 @media only screen and (min-width: 801px) and (max-width: 1100px) {
-    .dropdown-menu.show {
-        display: block;
-        height: 400px;
-        overflow-y: scroll;
-    }
     .dropdown-menu.show ul {    
         margin-bottom: 25px;
     }
 }  
 @media only screen and (min-width: 1101px) and (max-width: 1500px)  {
-    .dropdown-menu.show {
-        display: block;
-        column-count: 3;
-    }
     .dropdown-menu.show ul {    
         margin-bottom: 25px;
     }
