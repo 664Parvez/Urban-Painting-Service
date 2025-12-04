@@ -417,6 +417,84 @@ nav .btn:hover {
 /* Contact Us */
 
 
+/* Get In Touch */
+.getQuote_first{
+    padding: 50px 0;
+}
+.getQuote_first .form_side {
+    background-color: var(--offwhite-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+.getQuote_first input{
+    margin-bottom: 10px;
+}
+.getQuote_first select{
+    margin-bottom: 10px;
+}
+.getQuote_first .btn {
+    margin-top: 20px;
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.getQuote_first .btn:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+.getQuote_first h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.getQuote_first h2 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.getQuote_first ul {
+    margin-top: 30px;
+}
+.getQuote_first ul li {
+    padding: 5px 0;
+    font-size: 18px;
+}
+.getQuote_first ul li i {
+    color: var(--second-color);
+}
+#getQuote_second {
+    padding: 50px 0;
+    background-color: var(--black-color);
+}
+#getQuote_second h3 {
+    color: var(--white-color);
+    font-size: 40px;
+}
+#getQuote_second .swiper img {
+    width: 100px;
+    margin: auto;
+    filter: grayscale(100%);
+}
+#getQuote_second .swiper img:hover {
+    filter: grayscale(0%);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #getQuote_second .swiper img {
+        width: 80px;
+    }
+    .getQuote_first h2 {
+        font-size: 40px;
+    }
+    #getQuote_second h3 {
+        font-size: 35px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+/* Get In Touch */
+
+
 /* Footer */
 
 footer {
