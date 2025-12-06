@@ -355,6 +355,18 @@ nav .btn:hover {
     color: var(--first-color);
     font-size: 35px;
 }
+#blog_side .blog_card_img{
+    position: relative;
+}
+#blog_side .blog_card_img .fa-arrow-up-right-from-square {
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    background-color: var(--first-color);
+    padding: 15px;
+    color: var(--white-color);
+    border-radius: 5px;
+}
 #blog_side .card h4:hover {
     color: var(--second-color);
 }
