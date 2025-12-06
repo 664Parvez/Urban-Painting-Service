@@ -353,6 +353,7 @@ nav .btn:hover {
 }
 #blog_side .card h4 {
     color: var(--first-color);
+    font-size: 35px;
 }
 #blog_side .card h4:hover {
     color: var(--second-color);
@@ -363,7 +364,11 @@ nav .btn:hover {
 #blog_side .card small {
     color: var(--black-color);
 }
-
+.blog_right_side {
+    position: sticky;
+    top: 100px;
+    margin-bottom: 20px;
+}
 .blog_right_search {
     background-color: var(--first-color);
     padding: 15px;
@@ -421,6 +426,9 @@ nav .btn:hover {
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #blog_page {
         padding-bottom: 30px;
+    }
+    #blog_side .card h4 {
+        font-size: 25px;
     }
     .blog_right_side {
         margin-top: 30px;
@@ -667,6 +675,45 @@ nav .btn:hover {
     }
 }
 /* Get In Touch */
+
+
+/* FAQ */
+#faq_page {
+    padding: 60px 0;
+}
+#faq_page h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+.faq_form_box {
+    background-color: var(--offwhite-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+.faq_form_box .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+    margin-top: 30px;
+}
+.faq_form_box .btn:hover {
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #faq_page {
+        padding: 30px 0;
+    }
+    #faq_page h2 {
+        font-size: 40px;
+    }
+    .faq_form_box {
+        margin-top: 30px;
+    }
+}
+/* FAQ */
 
 
 /* Footer */
