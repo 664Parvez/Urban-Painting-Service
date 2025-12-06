@@ -142,7 +142,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h5>What We Do</h5>
+                        <h5><i class="fa-solid fa-paint-roller"></i> What We Do</h5>
                         <h2>Top painting services for your house</h2>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
 
@@ -179,6 +179,10 @@
                                         </select>
                                     </div>
                                     <div class="col-lg-12">
+                                        <label for="">Full Address</label>
+                                        <input type="text" class="form-control-lg form-control" placeholder="full Address">
+                                    </div>
+                                    <div class="col-lg-12">
                                         <label for="">Message</label>
                                         <textarea name="" class="form-control-lg form-control" rows="4" placeholder="Write Your Message Here . . ." id=""></textarea>
                                     </div>
@@ -200,7 +204,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-9">
                         <!-- Swiper -->
-                        <div class="swiper mySwiper">
+                        <div class="swiper logoSwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <img src="./public/image/brand-1.png" alt="">
@@ -359,7 +363,7 @@
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".logoSwiper", {
       slidesPerView: 3,
       spaceBetween: 10,
       loop: true,
