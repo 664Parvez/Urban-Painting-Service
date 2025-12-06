@@ -503,6 +503,9 @@ nav .btn:hover {
     .about_schedule_section h3 {
         font-size: 30px;
     }
+    .about_counting h3 {
+        font-size: 40px;
+    }
     .about_counting {
         padding: 50px 0;
     }
