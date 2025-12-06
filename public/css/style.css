@@ -367,6 +367,9 @@ nav .btn:hover {
     color: var(--white-color);
     border-radius: 5px;
 }
+#blog_side .blog_card_img .fa-arrow-up-right-from-square:hover {
+    background-color: var(--second-color);
+}
 #blog_side .card h4:hover {
     color: var(--second-color);
 }
