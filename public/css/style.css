@@ -435,6 +435,13 @@ nav .btn:hover {
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
 }
+.about_service .card i {
+    background-color: var(--first-color);
+    padding: 15px;
+    border-radius: 50%;
+    color: var(--offwhite-color);
+    transform: rotate(-45deg);
+}
 .about_schedule_section {
     padding: 100px 0;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/meet.jpg");
@@ -445,6 +452,12 @@ nav .btn:hover {
 .about_schedule_section h3 {
     font-size: 40px;
     color: var(--white-color);
+}
+.video_about {
+    padding: 50px 0;
+}
+.about_schedule_section p {
+    color: var(--offwhite-color);
 }
 .schedule_get_btn {
     background-color: var(--first-color);
@@ -462,6 +475,95 @@ nav .btn:hover {
     color: var(--black-color);
     outline: none;
     background-color: var(--offwhite-color);
+}
+.what_we_do_about {
+    padding: 50px 0;
+}
+.what_we_do_about h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.what_we_do_about h3 {
+    font-size: 40px;
+    color: var(--first-color);
+    margin-top: 15px;
+}
+.what_we_do_about h4 {
+    color: var(--second-color);
+}
+.how_it_works_bg {
+    background: linear-gradient(rgba(242, 242, 242, 0.9),rgba(242, 242, 242, 0.9)),url("../image/it_work.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    border-radius: 15px;
+}
+.how_it_works_bg h5 {
+    display: inline;
+    background-color: var(--second-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.how_it_works_bg h3 {
+    font-size: 40px;
+    color: var(--first-color);
+    margin-top: 15px;
+}
+.how_it_works_bg .how_it_point i {
+    font-size: 40px;
+    color: var(--second-color);
+}
+.how_it_works_bg h4 {
+    margin-top: 15px;
+}
+.about_testimonial {
+    background: linear-gradient(rgba(255, 255, 249, 0.8),rgba(255, 255, 249, 0.8)),url("../image/testimonial-two-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.about_testimonial h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.about_testimonial h3 {
+    font-size: 40px;
+    color: var(--first-color);
+    margin-top: 15px;
+}
+.about_testimonial .testimonialSwiper img {
+    border-radius: 50%;
+}
+.testimonia_div {
+    background: var(--offwhite-color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(112, 112, 112, 0.2);
+}
+.Quote_sign {
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    display: inline;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.Quote_sign p {
+    font-size: 50px;
+}
+.testimonia_div p {
+    margin-top: 15px;
 }
 @keyframes aboutFirstIcon {
     0% {
@@ -496,7 +598,22 @@ nav .btn:hover {
     }
     .about_first_1 {
         margin-bottom: 25px;
-    }  
+    } 
+    .video_about{
+        padding: 30px 0;
+    }
+    .video_about iframe {
+        height: 300px;
+    }
+    .what_we_do_about {
+        padding: 30px 0;
+    }
+    .what_we_do_about h3 {
+        font-size: 30px;
+    }
+    .about_service h3 {
+        font-size: 30px;
+    } 
     .about_schedule_section {
         padding: 50px 0;
     } 
@@ -514,6 +631,21 @@ nav .btn:hover {
     }
     .counting_box {
         margin-bottom: 20px;
+    }
+    .how_it_works_bg {
+        padding: 40px 0;
+    }
+    .how_it_works_bg h3 {
+        font-size: 30px;
+    }
+    .about_testimonial {
+        padding: 40px 0;
+    }
+    .about_testimonial h3 {
+        font-size: 30px;
+    }
+    .wedo_right_side_img {
+        width: 100%;
     }
 }
 /* About Us */
