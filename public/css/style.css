@@ -844,6 +844,15 @@ nav .btn:hover {
     .price_second {
         padding: 40px 0;
     }
+    .price_first_section h2 {
+        font-size: 30px;
+    }
+    .price_form_side h3 {
+        font-size: 30px;
+    }
+    .price_form_side {
+        padding: 20px;
+    }
 }
 /* Pricing */
 
