@@ -193,6 +193,7 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum aliquam facere iste consequuntur sed laboriosam consectetur maxime error, nam enim quae iusto, odio explicabo sapiente, voluptatibus distinctio in. Aliquid nesciunt minus animi non numquam odio velit facere blanditiis mollitia sapiente?</p>
                     </div>
                 </div>
+                <hr>
             </div>
             <div class="text-center">
             </div>
@@ -840,7 +841,12 @@
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 1,
       spaceBetween: 0,
+      grabCursor: true,
       loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
