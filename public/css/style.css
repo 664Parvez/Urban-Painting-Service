@@ -348,7 +348,7 @@ nav .btn:hover {
 
 /* Home */
 .home_slider .swiper-slide {
-    padding: 150px 0;
+    padding: 120px 0;
 }
 .slider_one {
     background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../image/hro3.jpg");
@@ -471,8 +471,11 @@ nav .btn:hover {
 .sub_anim_img {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 20px;
+    z-index: -1;
     animation: bultyBrushAnim 5s alternate infinite;
+    opacity: .5;
+    backdrop-filter: blur(7px);
 }
 .sub_anim_img2 {
     position: absolute;
@@ -813,6 +816,7 @@ nav .btn:hover {
     top: 0;
     width: 250px;
     animation: bultyAnim 5s infinite linear;
+    opacity: .3;
 }
 @keyframes bultyAnim {
     0% {
