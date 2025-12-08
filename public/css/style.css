@@ -230,7 +230,9 @@ nav .btn:hover {
 .offcanvas-header img {
     width: 140px;
 }
-
+.dropdown-item:active {
+    background-color: var(--first-color) !important;
+}
 @keyframes animateBtn {
     0% {
         transform: scale(1);
@@ -1000,15 +1002,35 @@ nav .btn:hover {
     background-color: var(--first-color);
     color: var(--offwhite-color);
 }
-.service_left li {
+.service_first_section li {
     font-size: 18px;
 }
 .service_left_part .btn:hover {
     background-color: var(--second-color);
     color: var(--offwhite-color);
 }
-.service_left img {
+.service_left .btn {
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+}
+.service_left .btn:hover {
+    background-color: var(--second-color);
+    color: var(--offwhite-color);
+}
+.service_hero_section {
+    background: linear-gradient(rgba(255, 255, 249, 0.8),rgba(255, 255, 249, 0.8)),url("../image/bg5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+.service_hero_section img {
+    width: 100%;
+}
+.service_hero {
     border-radius: 10px;
+}
+.service_first_section img {
     width: 100%;
 }
 .service_right_section {
@@ -1076,14 +1098,30 @@ nav .btn:hover {
     border-radius: 5px;
 }
 .service_page_point {
-    background-color: var(--offwhite-color);
+    background-color: var(--first-color);
     padding: 15px;
+    border-radius: 10px;
+    color: var(--offwhite-color);
+}
+.benifit_point {
+    background-color: var(--offwhite-color);
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.benifit_point h4 {
+    font-size: 40px;
+}
+.benifit_point img {
+    width: 100%;
+}
+.choosing_img img {
+    width: 100%;
     border-radius: 10px;
 }
 .service_page_point i {
     font-size: 40px;
     margin-bottom: 10px;
-    color: var(--second-color);
+    color: var(--white-color);
 }
 .service_third_section {
     background-color: var(--offwhite-color);
@@ -1105,17 +1143,33 @@ nav .btn:hover {
     .service_right_section {
         margin-top: 20px;
     }
+    .service_hero_section {
+        padding: 30px 0;
+    }
+    .service_hero_section img {
+        margin-top: 20px;
+    }
     .service_second {
         padding: 30px 0;
     }
-    .service_left iframe {
+    .service_video {
         height: 300px;
+    }
+    .service_choosing_part h4 {
+        margin-top: 20px;
     }
     .service_second h3 {
         font-size: 30px;
     }
     .service_first_section h2 {
         font-size: 35px;
+    }
+    .benifit_point {
+        padding: 30px 0;
+    }
+    .benifit_point h4 {
+        font-size: 30px;
+        margin-top: 20px;
     }
     .service_third_section {
         padding: 30px 0;
