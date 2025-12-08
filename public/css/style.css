@@ -346,6 +346,316 @@ nav .btn:hover {
 /* Navbar */
 
 
+/* Home */
+.home_slider .swiper-slide {
+    padding: 150px 0;
+}
+.slider_one {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../image/hro3.jpg");
+}
+.slider_two {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../image/hero1.jpg");
+}
+.slider_three {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("../image/hero2.jpg");
+}
+.home_slider h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home_slider h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    color: var(--white-color);
+}
+.home_slider p {
+    font-size: 20px;
+    color: var(--white-color);
+}
+.home_slider .btn {
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+}
+.home_slider .btn:hover {
+    background-color: var(--second-color);
+}
+.home_what_we_do {
+    padding: 100px 0;
+    background: url("../image/features-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home_what_we_do h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home_what_we_do h6 {
+    font-size: 30px;
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home_what_we_do h3 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+.home_what_we_do img {
+    width: 50px;
+}
+.home_we_offer {
+    padding: 50px 0;
+    background-color: var(--offwhite-color);
+}
+.home_we_offer .card img {
+    margin-bottom: 15px;
+    transition: .5s ease-in-out;
+}
+.home_we_offer .card:hover img {
+    transition: .5s ease-in-out;
+    transform: rotateZ(90deg);
+}
+.home_we_offer h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home_we_offer h3 {
+    font-size: 40px;
+}
+.home_we_offer h4 {
+    color: var(--first-color);
+}
+.home_services {
+    padding: 50px 0;
+}
+.home_services h3 {
+    font-size: 40px;
+}
+.home_services h4 {
+    color: var(--first-color);
+}
+.home_services .card .card-body .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.home_services .card .card-body .btn:hover {
+    background-color: var(--second-color);
+}
+.why_choose {
+    padding: 50px 0;
+    position: relative;
+}
+.why_choose h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.sub_anim_img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    animation: bultyBrushAnim 5s alternate infinite;
+}
+.sub_anim_img2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: brushAnim 5s alternate infinite;
+}
+@keyframes brushAnim {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes bultyBrushAnim {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.home_who_we_are {
+    padding: 50px 0;
+}
+.home_who_we_are h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home_who_we_are h3 {
+    font-size: 40px;
+}
+.home_who_we_are .fa-check-double {
+    font-size: 30px;
+    color: var(--second-color);
+}
+.home_who_we_are img {
+    width: 100%;
+    border-radius: 10px;
+}
+.why_choose_left_img {
+    width: 100%;
+    border-radius: 10px;
+}
+.why_choose h3 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+.home_message_review {
+    padding: 50px 0;
+}
+.message_testimonia_div {
+    padding: 10px;
+    background-color: var(--offwhite-color);
+    border-radius: 10px;
+    border: 1px solid rgba(68, 68, 68, 0.2);
+}
+.message_testimonia_div img {
+    border-radius: 5px;
+}
+.home_message_review h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home_message_review h3 {
+    font-size: 40px;
+}
+.home_blog {
+    padding: 50px 0;
+}
+.home_blog h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.home_blog h3 {
+    font-size: 40px;
+}
+.home_blog .card h4 {
+    color: var(--first-color);
+}
+.home_blog .card .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.home_blog .card .btn:hover {
+    background-color: var(--second-color);
+}
+.home_blog .view_all_btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.home_blog .view_all_btn:hover {
+    background: var(--second-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .home_slider .swiper-slide {
+        padding: 50px 0;
+    }
+    .home_slider .swiper-slide h1 {
+        font-size: 35px;
+    }
+    .home_slider .swiper-slide p {
+        font-size: 18px;
+    }
+    .home_what_we_do {
+        padding: 50px 0;
+        background: linear-gradient(rgba(59, 59, 59, 0.7),rgba(59, 59, 59, 0.7)),url("../image/features-bg.jpg");
+    }
+    .home_what_we_do h3 {
+        font-size: 30px;
+        color: var(--white-color);
+    }
+    .home_what_we_do h4 {
+        color: var(--white-color);
+    }
+    .home_what_we_do p {
+        color: var(--white-color);
+    }
+    .home_services {
+        padding: 30px 0;
+    }
+    .home_services h3 {
+        font-size: 30px;
+    }
+    .why_choose {
+        padding: 30px 0;
+    }
+    .why_choose .why_choose_left_img {
+        margin-bottom: 30px;
+    }
+    .why_choose h3 {
+        font-size: 30px;
+    }
+    .home_what_we_do h6 {
+        font-size: 25px;
+    }
+    .home_we_offer h3 {
+        font-size: 30px;
+    }
+    .home_blog {
+        padding: 30px 0;
+    }
+    .home_blog h3 {
+        font-size: 30px;
+    }
+    .home_message_review h3 {
+        font-size: 30px;
+    }
+    .sub_anim_img {
+        display: none;
+    }
+    .sub_anim_img2 {
+        display: none;
+    }
+    .home_who_we_are {
+        padding: 30px 0;
+    }
+    .home_who_we_are h3 {
+        font-size: 30px;
+    }
+}
+/* Home */
+
+
 /* About Us */
 .partner_message {
     padding-bottom: 50px;
@@ -494,6 +804,26 @@ nav .btn:hover {
 }
 .what_we_do_about h4 {
     color: var(--second-color);
+}
+.how_it_works {
+    position: relative;
+}
+.bulty_img {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    animation: bultyAnim 5s infinite linear;
+}
+@keyframes bultyAnim {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 .how_it_works_bg {
     background: linear-gradient(rgba(242, 242, 242, 0.9),rgba(242, 242, 242, 0.9)),url("../image/it_work.png");
@@ -646,6 +976,9 @@ nav .btn:hover {
     }
     .wedo_right_side_img {
         width: 100%;
+    }
+    .bulty_img {
+        display: none;
     }
 }
 /* About Us */
