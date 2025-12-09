@@ -1207,6 +1207,12 @@ nav .btn:hover {
     font-size: 40px;
     margin-top: 10px;
 }
+.price_first_section .price_table .main_logo_of_paint {
+    width: 150px;
+}
+.price_first_section .price_table .painting_drum {
+    width: 90px;
+}
 .price_second {
     padding: 100px 0;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../image/home2-image1-copyright.jpg");
