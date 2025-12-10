@@ -780,6 +780,9 @@ nav .btn:hover {
     font-size: 40px;
     color: var(--white-color);
 }
+.service_box h4 {
+    font-size: 20px;
+}
 .video_about {
     padding: 50px 0;
 }
