@@ -458,6 +458,12 @@ nav .btn:hover {
 .home_services .card .card-body .btn:hover {
     background-color: var(--second-color);
 }
+.service_card_box {
+    display: table;
+}
+.service_card_box .card{
+    display: table-cell;
+}
 .why_choose {
     padding: 50px 0;
     position: relative;
@@ -528,6 +534,12 @@ nav .btn:hover {
 .home_who_we_are img {
     width: 100%;
     border-radius: 10px;
+}
+.we_offer_box {
+    display: table;
+}
+.we_offer_box .card {
+    display: table-cell;
 }
 .why_choose_left_img {
     width: 100%;
@@ -1213,6 +1225,30 @@ nav .btn:hover {
 .price_first_section .price_table .painting_drum {
     width: 90px;
 }
+.price_second_section {
+    padding-bottom: 50px;
+}
+.price_third_section {
+    padding-bottom: 50px;
+}
+.price_second_section h5 {
+    display: inline;
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.price_second_section h2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+.price_second_section .price_table .main_logo_of_paint {
+    width: 150px;
+}
+.price_second_section .price_table .painting_drum {
+    width: 90px;
+}
 .price_second {
     padding: 100px 0;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../image/home2-image1-copyright.jpg");
@@ -1259,6 +1295,15 @@ nav .btn:hover {
     }
     .price_form_side {
         padding: 20px;
+    }
+    .price_first_section {
+        padding-bottom: 30px;
+    }
+    .price_second_section {
+        padding-bottom: 30px;
+    }
+    .price_third_section {
+        padding-bottom: 30px;
     }
 }
 /* Pricing */
