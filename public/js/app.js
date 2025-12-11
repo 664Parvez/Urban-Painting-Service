@@ -35,22 +35,40 @@ function singleProductImg(image){
     document.querySelector('.main').src = image;
 }
 
-// Get allValues using querySelectorAll
-let allValues = document.querySelectorAll(".value");
+// // Get allValues using querySelectorAll
+// let allValues = document.querySelectorAll(".value");
 
-// Start the forEach loop for displaying the values
-allValues.forEach((singleValue) => {
-  let startValue = 0;
-  let endValue = parseInt(singleValue.getAttribute("data-value"));
-  let duration = Math.floor(2000 / endValue);
+// // Start the forEach loop for displaying the values
+// allValues.forEach((singleValue) => {
+//   let startValue = 0;
+//   let endValue = parseInt(singleValue.getAttribute("data-value"));
+//   let duration = Math.floor(2000 / endValue);
 
-  // Counter for increaing the values & display
-  let counter = setInterval(function () {
-    startValue += 1;
-    singleValue.textContent = startValue;
-    // Clearing the interval
-    if (startValue == endValue) {
-      clearInterval(counter);
-    }
-  }, duration);
-});
+//   // Counter for increaing the values & display
+//   let counter = setInterval(function () {
+//     startValue += 1;
+//     singleValue.textContent = startValue;
+//     // Clearing the interval
+//     if (startValue == endValue) {
+//       clearInterval(counter);
+//     }
+//   }, duration);
+// });
+
+
+
+const items = document.querySelectorAll(".value");
+
+gsap.from(items, {
+    scrollTrigger: {
+        trigger: ".value",
+        scroller: "body",
+        markers: false,
+        start: "top 90%",
+        end: "bottom 90%",
+        scrub: 5
+    },
+    innerText: 0,
+    duration: 5,
+    snap: {innerText: 1}
+});    
