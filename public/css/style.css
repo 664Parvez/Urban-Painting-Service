@@ -669,6 +669,9 @@ nav .btn:hover {
     .home_who_we_are h3 {
         font-size: 30px;
     }
+    .home_blog .view_all_btn {
+        margin-top: 20px;
+    }
 }
 /* Home */
 
@@ -1801,10 +1804,15 @@ footer .support_link_menu li a {
 footer .support_link_menu li a i {
     color: var(--black-color);
 }
+footer .footer_social_media {
+    margin-top: 20px;
+}
 footer .footer_social_media ul li:first-child {
     margin-left: 0;
 }
-
+footer .footer_contact li {
+    font-size: 18px;
+}
 footer .footer_copywrite_part {
     background-color: var(--first-color);
     padding: 10px 0;
@@ -1832,6 +1840,9 @@ footer .footer_copywrite_part a {
     }
     .footer_learn_more_btn {
         margin-bottom: 15px;
+    }
+    .footer_social_media {
+        margin-top: 15px;
     }
 }
 @media only screen and (min-width: 501px) and (max-width: 900px) {
